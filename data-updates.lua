@@ -1,12 +1,12 @@
 --data.lua
 
 data.raw.recipe["yumako-processing"].results = {
-	{type = "item", name = "yumako-seed", amount = 1, probability = (settings.startup["ninjrsadjustableseedoutput-yumako-percentage"].value / 100)},
+	{type = "item", name = "yumako-seed", amount = 1, independent_probability = (settings.startup["ninjrsadjustableseedoutput-yumako-percentage"].value / 100)},
 	{type = "item", name = "yumako-mash", amount = 2}
 }
 
 data.raw.recipe["jellynut-processing"].results = {
-	{type = "item", name = "jellynut-seed", amount = 1, probability = (settings.startup["ninjrsadjustableseedoutput-jellynut-percentage"].value / 100) },
+	{type = "item", name = "jellynut-seed", amount = 1, independent_probability = (settings.startup["ninjrsadjustableseedoutput-jellynut-percentage"].value / 100) },
 	{type = "item", name = "jelly", amount = 4}
 }
 
