@@ -1,9 +1,9 @@
 {
 	"name": "ninjrs-adjustable-seed-outputs",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"title": "Ninjr's Adjustable Seed Output",
 	"author": "TheNinjrKillr",
-	"factorio_version": "2.0",
+	"factorio_version": "2.1",
 	"dependencies": ["base >= 2.0", "space-age"],
 	"description": "This mod allows the user to adjust the rate of seed output from Gleba plants - it's too low by default!"
   }
